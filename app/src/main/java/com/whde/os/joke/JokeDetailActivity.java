@@ -20,7 +20,7 @@ import okhttp3.Response;
 
 public class JokeDetailActivity extends AppCompatActivity {
     TextView textView = null;
-    String url = "http://192.168.0.142:8080/JokeWebServer/detail?herf=";
+    String url = "http://192.168.0.200:8080/JokeWebServer/detail?herf=";
     Handler h = new Handler();
 
     public String herf = null;

@@ -29,7 +29,7 @@ public class JokeListActivity extends AppCompatActivity {
     ListView jokelistview = null;
     int currentPage = 1;
     int pageSize = 20;
-    String url = "http://192.168.0.142:8080/JokeWebServer/jokelist?pageSize=20&currentPage=";
+    String url = "http://192.168.0.200:8080/JokeWebServer/jokelist?pageSize=20&currentPage=";
     List<JokeBean> jokeBeanList = new ArrayList<JokeBean>();
     OkHttpClient client = new OkHttpClient();
     JokeListAdapter adapter = null;
